@@ -1,0 +1,15 @@
+.show {
+  display: block;
+  transition: all 0.4s;
+}
+.cus_mdl {
+  background-color: #0000008f !important;
+  transition: display 0.4s;
+}
+.cus_mdl::backdrop {
+  background: hsl(0 0% 0% / 50%);
+}
+.mdl_butcol {
+  display: flex;
+  justify-content: end;
+}

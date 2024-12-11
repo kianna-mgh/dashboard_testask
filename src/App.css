@@ -1,0 +1,75 @@
+.main_cont {
+  height: 100vh;
+}
+.main_row {
+  height: 100%;
+  align-items: center;
+}
+.show {
+  display: block !important;
+  transition: display 0.4s;
+}
+.btn_cusmain {
+  border-radius: 50rem !important;
+  border: 2px solid transparent !important;
+  padding: 0.5rem !important;
+  text-align: center !important;
+  position: relative !important;
+  overflow: hidden !important;
+  width: 100% !important;
+  background: var(--prm-blue) !important;
+  transition: all 0.4s !important;
+  color: var(--txt-white) !important;
+  text-transform: uppercase !important;
+  font-size: 15px !important;
+}
+.btn_cusmain:hover {
+  border-color: var(--prm-blue) !important;
+  background: transparent !important;
+  color: var(--dark-gray) !important;
+}
+input {
+  border-radius: 2rem !important;
+  border-width: 2px !important;
+  outline-offset: none !important;
+  outline-color: var(--prm-blue) !important;
+  outline-width: 1px !important;
+}
+.btn_cusmain_trsp {
+  border-radius: 50rem !important;
+  border: 2px solid var(--prm-blue) !important;
+  padding: 0.5rem !important;
+  text-align: center !important;
+  position: relative !important;
+  overflow: hidden !important;
+  width: 100% !important;
+  background: transparent !important;
+  transition: all 0.4s !important;
+  color: var(--dark-gray) !important;
+  text-transform: uppercase !important;
+  font-size: 15px !important;
+}
+.btn_cusmain_trsp:hover {
+  border-color: transparent !important;
+  background: var(--prm-blue) !important;
+  color: var(--txt-white) !important;
+}
+.btn_cusmain_wt {
+  border-radius: 50rem !important;
+  border: 2px solid var(--txt-white) !important;
+  padding: 0.5rem !important;
+  text-align: center !important;
+  position: relative !important;
+  overflow: hidden !important;
+  width: 100% !important;
+  background: transparent !important;
+  transition: all 0.4s !important;
+  color: var(--txt-white) !important;
+  text-transform: uppercase !important;
+  font-size: 15px !important;
+}
+.btn_cusmain_wt:hover {
+  border-color: transparent !important;
+  background: var(--txt-white) !important;
+  color: var(--dark-gray) !important;
+}

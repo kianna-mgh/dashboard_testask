@@ -1,0 +1,20 @@
+.nav_bar {
+  background-color: var(--prm-blue) !important;
+  margin: 1rem 1rem 3rem !important;
+  border-radius: 2rem !important;
+  color: #ffffff !important;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.nav_mcont .nav_mrow {
+  width: 100%;
+}
+.nav_tit {
+  width: fit-content !important;
+  align-self: center;
+}
+.nav_but {
+  /* width: fit-content !important; */
+  align-self: center;
+}

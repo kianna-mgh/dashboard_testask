@@ -1,0 +1,52 @@
+:root {
+  --bdbs-bgcolor: white;
+  --bdbs-frcolor: 19, 37, 65; /*#1c223d*/
+  --dark-gray: #5d5d5d; /*#0f1d32*/
+  --prm-blue: #3f51b5;
+  --txt-white: white;
+  --txt-lgtgray: #c5c5c5;
+  --prm-org: #ff220c;
+  --btn-grdnt: linear-gradient(to right, #1c223d, #ff220c);
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* ::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: none !important;
+  border-radius: 0px;
+  background-color: #efefef !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(var(--bdbs-frcolor));
+  border-radius: 0px;
+} */
+
+body {
+  letter-spacing: 0.02vw;
+  font-size: 0.84vw;
+  overflow-x: hidden;
+  background-color: var(--bdbs-bgcolor) !important;
+  transition: all 0.3s ease-out;
+  padding: 0px !important;
+  color: var(--dark-gray) !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
